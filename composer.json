@@ -1,0 +1,21 @@
+{
+  "name": "tony-zxw/composer-demo",
+  "description": "composer demo",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tony-zxw",
+      "email": "zhangxiaowei098@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "ComposerDemo\\": "src/"
+    }
+  }
+}
